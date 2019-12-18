@@ -12,4 +12,4 @@
 
 ## Ejercicios
 
-* [Ejercicios iniciales con ansible](ejercicios.md)
+* [Ejercicios iniciales con ansible](ejercicio1.md)
