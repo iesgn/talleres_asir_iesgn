@@ -10,6 +10,10 @@
 * [YAML Syntax](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
 * [Ansible examples](https://github.com/ansible/ansible-examples)
 
+## Demo
+
+* [Instalación de apache2+mariadb+wordpress](https://github.com/josedom24/automatizacion_iaw)
+
 ## Ejercicios
 
 * [Ejercicios iniciales con ansible](ejercicio1.md)
