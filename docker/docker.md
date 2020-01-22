@@ -3,6 +3,7 @@
 ## Contenedores de aplicaciones
 
 * [Presentación de contenedores de aplicaciones](https://dit.gonzalonazareno.org/moodle/pluginfile.php/15069/mod_resource/content/1/contenedores-aplicaciones.pdf)
+* [Ciclo de vida de nuestras aplicaciones en docker](https://iesgn.github.io/cloudandrelated/es_docker.html#/)
 
 ## Recursos útiles
 
@@ -24,11 +25,6 @@
 * [Enlazando contenedores docker](https://www.josedomingo.org/pledin/2016/02/enlazando-contenedores-docker/)
 * [Gestión del almacenamiento en docker](https://www.josedomingo.org/pledin/2016/05/gestion-del-almacenamiento-en-docker/)
 * [Gestionando el almacenamiento docker con Dockerfile](https://www.josedomingo.org/pledin/2016/11/gestionando-el-almacenamiento-docker-con-dockerfile/)
-
-
-## Implantación de aplicaciones web con docker
-
-* [Ciclo de vida de nuestras aplicaciones en docker](https://iesgn.github.io/cloudandrelated/es_docker.html#/)
 
 ## Ejercicios
 
