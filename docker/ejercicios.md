@@ -16,7 +16,7 @@ Con el comando `run` vamos a crear un contenedor donde vamos a ejecutar un coman
 
 * Comprueba si hay algún contenedor ejecutándose (`docker ps`).
 * Comprueba los contenedores que ya se han ejecutado y ahora están parados (`docker ps -a`).
-* Compruebas las imágenes de nuestro registro local (`docker image ls`)
+* Compruebas las imágenes de nuestro registro local (`docker images`)
 
 ### Ejecutando un contenedor interactivo
 
@@ -31,6 +31,12 @@ El contenedor se para cuando salimos de él. Para volver a conectarnos a él:
     contendor1
     $ docker attach contendor1
     root@2bfa404bace0:/#
+
+Si el contenedor se está ejecutando podemos ejecutar comando en él con el subcomando `exec`:
+
+    $ docker start contendor1
+    contendor1
+    $ docker exec contenedor1 ls -al
 
 ### Creando un contenedor demonio
 
@@ -55,9 +61,13 @@ Tenemos muchas imágenes en el registro público **docker hub**, por ejemplo pod
 
 Vemos que el contenedor se está ejecutando, además con la opción `-p` mapeamos un puerto del equipo donde tenemos instalado el docker, con un puerto del contenedor.  Para probarlo accede desde un navegador a la ip del servidor con docker y al puerto 8080.
 
+Para acceder al log del contenedor podemos ejecutar:
+
+    $ docker logs my-apache-app
+
 ## Ejercicio 2: Creando nuestras imágenes con Dockerfile
 
-Vamos a desplegar una página estática utilziando un servidor apache 2.4, para ello vamos a crear un directorio `mi_pagina`.Dentro creamos un directorio `public_html` donde vamos a guardar nuestra página:
+Vamos a desplegar una página estática utilizando un servidor apache 2.4, para ello vamos a crear un directorio `mi_pagina`.Dentro creamos un directorio `public_html` donde vamos a guardar nuestra página:
 
     $ cd public_html
     echo "<h1>Prueba</h1>" > index.html
@@ -87,7 +97,7 @@ Lo primero que vamos a hacer es crear un contenedor desde la imagen mariadb con 
 
     $ docker run --name servidor_mariadb -e MYSQL_ROOT_PASSWORD=asdasd -e MYSQL_DATABASE=wordpress -d mariadb
 
-Hemos indicado la variable de entrono <em>MYSQL_ROOT_PASSWORD</em>, que es obligatoria, indicando la contraseña del usuario root y `MYSQL_DATABASE` donde indicamos el nombre de la base de datos que debe crear. Si seguimos las instrucciones del <a href="https://hub.docker.com/_/mysql/">repositorio</a> de docker hub podemos observar que podríamos haber creado más variables, por ejemplo: `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_ALLOW_EMPTY_PASSWORD`.
+Hemos indicado la variable de entrono <em>MYSQL_ROOT_PASSWORD</em>, que es obligatoria, indicando la contraseña del usuario root y `MYSQL_DATABASE` donde indicamos el nombre de la base de datos que debe crear. Si seguimos las instrucciones de docker hub podemos observar que podríamos haber creado más variables, por ejemplo: `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_ALLOW_EMPTY_PASSWORD`.
 
 A continuación vamos a crear un nuevo contenedor, con el nombre _servidor_wp_, con el servidor web a partir de la imagen wordpress, enlazado con el contenedor anterior.
 

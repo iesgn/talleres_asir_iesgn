@@ -29,3 +29,4 @@
 ## Ejercicios
 
 * [Ejercicios con docker](ejercicios.md)
+* [Ejercicio: Despliegue de páginas estáticas con docker](https://fp.josedomingo.org/iawgs/u06/docker1.html)
