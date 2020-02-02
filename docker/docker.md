@@ -12,6 +12,7 @@
 * [docker-compose](https://docs.docker.com/compose/)
 * [How to Build Slim Docker Images Fast](https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7)
 * [Julia Evans - overlay fysystems](https://pbs.twimg.com/media/EJq2wgmWkAA5eAY?format=jpg&name=large)
+* [Julia Evans - cgroups](https://pbs.twimg.com/media/ENo1dPRWsAA1CQE?format=jpg&name=large)
 
 
 ## Entradas en PLEDIN
