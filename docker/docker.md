@@ -3,6 +3,7 @@
 ## Contenedores de aplicaciones
 
 * [Presentación de contenedores de aplicaciones](https://dit.gonzalonazareno.org/moodle/pluginfile.php/15069/mod_resource/content/1/contenedores-aplicaciones.pdf)
+* [Julia Evans - why containers?](https://pbs.twimg.com/media/EP5M9lrX4AIHN0T?format=jpg&name=large)
 * [Ciclo de vida de nuestras aplicaciones en docker](https://iesgn.github.io/cloudandrelated/es_docker.html#/)
 
 ## Recursos útiles
