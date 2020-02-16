@@ -2,7 +2,7 @@
 
 ## Presentaciones
 
-[1. Despleigue de aplicaciones en contenedores](presentaciones/01-despliegue_aplic_contenedores.pdf)
+1. [Despleigue de aplicaciones en contenedores](presentaciones/01-despliegue_aplic_contenedores.pdf)
 2. [Introducción a kuberentes](presentaciones/02-intro_a_k8s.pdf)
 3. [Despliiegue de aplicaciones con k8s](presentaciones/03-despliegue_aplic_k8s.pdf)
 4. [Comunicación entre servicios y acceso desde el exterior](presentaciones/04-servicios_comunic_ext.pdf)
