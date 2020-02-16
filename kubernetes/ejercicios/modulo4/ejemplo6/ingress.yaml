@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-letschat
+spec:
+  rules:
+  - host: www.letschat.com
+    http:
+      paths:
+      - path: "/"
+        backend:
+          serviceName: letschat
+          servicePort: 8080

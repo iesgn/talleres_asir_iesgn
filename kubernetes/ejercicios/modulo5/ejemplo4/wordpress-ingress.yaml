@@ -1,0 +1,20 @@
+#
+# Advanced Kubernetes training by Bitnami
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: wordpress-ingress
+  labels:
+    app: wordpress
+    type: frontend
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+  - host: wp.192.168.99.100.nip.io
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: wordpress-service
+          servicePort: http-sv-port

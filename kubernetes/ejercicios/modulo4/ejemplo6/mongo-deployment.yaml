@@ -1,0 +1,22 @@
+﻿apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mongo
+  labels:
+    name: mongo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: mongo
+  template:
+    metadata:
+      labels:
+        name: mongo
+    spec:
+      containers:
+      - name: mongo
+        image: mongo
+        ports:
+          - name: mongo
+            containerPort: 27017

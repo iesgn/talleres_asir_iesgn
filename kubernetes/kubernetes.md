@@ -12,8 +12,10 @@
 8. [Administración básica](presentaciones/08-administracion_basica.pdf)
 9. [Instalación paso a paso](presentaciones/09-Instalacion_paso_a_paso.pdf)
 
-  
-                    
+
+## Ejercicios
+
+* [Repositorio de ejercicios]()
            
           
 
