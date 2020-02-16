@@ -15,7 +15,4 @@
 
 ## Ejercicios
 
-* [Repositorio de ejercicios]()
-           
-          
-
+* [Repositorio de ejercicios](https://github.com/iesgn/talleres_asir_iesgn/tree/master/kubernetes/ejercicios)
