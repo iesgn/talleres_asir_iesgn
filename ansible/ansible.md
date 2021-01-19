@@ -1,9 +1,7 @@
 # Taller de ansible
 
 * [Programando infraestructura en la nube](https://iesgn.github.io/presentacion-ual17/#/)
-* [Presentación de ansible](https://dit.gonzalonazareno.org/moodle/pluginfile.php/15281/mod_resource/content/1/ansible.pdf)
-* [Introducción a ansible](http://iesgn.github.io/cloud/curso/u2/ansible)
-
+* [Presentación de ansible](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/ansible.pdf)
 
 ## Recurso útiles
 
