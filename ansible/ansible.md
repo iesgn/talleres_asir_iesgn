@@ -15,3 +15,11 @@
 ## Ejercicios
 
 * [Ejercicios iniciales con ansible](ejercicio1.md)
+
+## Vídeos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cMVT1LpgvCA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bxB-lqrEbpA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/arp50zPL3Tk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
