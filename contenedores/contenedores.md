@@ -1,9 +1,11 @@
-# Taller de docker
+# Taller de contenedores
 
-## Contenedores de aplicaciones
+* [Contenedores y aplicaciones](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/contenedores_y_aplicaciones.pdf)
 
-* [Presentación de contenedores de aplicaciones](https://dit.gonzalonazareno.org/moodle/pluginfile.php/15069/mod_resource/content/1/contenedores-aplicaciones.pdf)
-* [Julia Evans - why containers?](https://pbs.twimg.com/media/EP5M9lrX4AIHN0T?format=jpg&name=large)
+## Contenedores de sistemas y de aplicaciones
+
+* [LXC](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/lxc.pdf)
+* [Introducción a docker](https://raw.githubusercontent.com/albertomolina/beamer-focus/main/intro-docker.pdf)
 * [Ciclo de vida de nuestras aplicaciones en docker](https://iesgn.github.io/cloudandrelated/es_docker.html#/)
 
 ## Recursos útiles
@@ -12,9 +14,9 @@
 * [docker.com - Dockerfile reference](https://docs.docker.com/engine/reference/builder/)
 * [docker-compose](https://docs.docker.com/compose/)
 * [How to Build Slim Docker Images Fast](https://towardsdatascience.com/how-to-build-slim-docker-images-fast-ecc246d7f4a7)
+* [Julia Evans - why containers?](https://pbs.twimg.com/media/EP5M9lrX4AIHN0T?format=jpg&name=large)
 * [Julia Evans - overlay fysystems](https://pbs.twimg.com/media/EJq2wgmWkAA5eAY?format=jpg&name=large)
 * [Julia Evans - cgroups](https://pbs.twimg.com/media/ENo1dPRWsAA1CQE?format=jpg&name=large)
-
 
 ## Entradas en PLEDIN
 
