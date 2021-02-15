@@ -20,7 +20,7 @@ Con el comando `run` vamos a crear un contenedor donde vamos a ejecutar un coman
 
 ### Ejecutando un contenedor interactivo
 
-En este caso usamos la opción `-i` para abrir una sesión interactiva, `-t` nos permite crear un pseoude-terminal que nos va a permitir interaccionar con el contenedor, indicamos un nombre del contenedor con la opción `--name`, y la imagen que vamos a utilizar para crearlo, en este caso “ubuntu”,  y por último el comando que vamos a ejecutar, en este caso `/bin/bash`, que lanzará una sesión bash en el contenedor:
+En este caso usamos la opción `-i` para abrir una sesión interactiva, `-t` nos permite crear un pseudo-terminal que nos va a permitir interaccionar con el contenedor, indicamos un nombre del contenedor con la opción `--name`, y la imagen que vamos a utilizar para crearlo, en este caso “ubuntu”,  y por último el comando que vamos a ejecutar, en este caso `/bin/bash`, que lanzará una sesión bash en el contenedor:
 
     $  docker run -it --name contenedor1 ubuntu /bin/bash 
     oot@2bfa404bace0:/#
